@@ -14,6 +14,8 @@ public class App {
         System.out.println("La stringa in maiuscolo è: " + ToUpper(str));
 
         System.out.println("La stringa in maiuscolo è: " + ToLower(str));
+
+        System.out.println("Il primo carattere della stringa è: " + FirstChar(str));
     }
 
     public static int StringLength(String str){
@@ -29,5 +31,10 @@ public class App {
     public static String ToLower(String str){
         String str1 = str.toLowerCase();
         return str1;
+    }
+
+    public static char FirstChar(String str){
+        char c = str.charAt(0);
+        return c;
     }
 }
