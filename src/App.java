@@ -13,7 +13,7 @@ public class App {
 
         System.out.println("La stringa in maiuscolo è: " + ToUpper(str));
 
-        System.out.println("La stringa in maiuscolo è: " + ToLower(str));
+        System.out.println("La stringa in minuscolo è: " + ToLower(str));
 
         System.out.println("Il primo carattere della stringa è: " + FirstChar(str));
 
