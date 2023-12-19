@@ -12,6 +12,8 @@ public class App {
         System.out.println("La stringa contiene " + StringLength(str) + " caratteri");
 
         System.out.println("La stringa in maiuscolo è: " + ToUpper(str));
+
+        System.out.println("La stringa in maiuscolo è: " + ToLower(str));
     }
 
     public static int StringLength(String str){
@@ -21,6 +23,11 @@ public class App {
 
     public static String ToUpper(String str){
         String str1 = str.toUpperCase();
+        return str1;
+    }
+
+    public static String ToLower(String str){
+        String str1 = str.toLowerCase();
         return str1;
     }
 }
