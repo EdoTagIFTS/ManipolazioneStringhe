@@ -16,6 +16,8 @@ public class App {
         System.out.println("La stringa in maiuscolo è: " + ToLower(str));
 
         System.out.println("Il primo carattere della stringa è: " + FirstChar(str));
+
+        System.out.println("Gli ultimi due caratteri della stringa sono: " + Last2Char(str));
     }
 
     public static int StringLength(String str){
@@ -36,5 +38,10 @@ public class App {
     public static char FirstChar(String str){
         char c = str.charAt(0);
         return c;
+    }
+
+    public static String Last2Char(String str){
+        String str1 = str.substring((StringLength(str))-2);
+        return str1;
     }
 }
